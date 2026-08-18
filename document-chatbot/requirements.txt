@@ -1,0 +1,20 @@
+# Core
+streamlit
+langchain==0.1.12
+langchain-community==0.0.28
+PyPDF2
+langchain-core
+torch
+pypdf
+
+# Vector DB / Embeddings
+faiss-cpu
+sentence-transformers
+
+# Transformers for offline LLMs
+transformers>=4.39.0
+accelerate
+sentencepiece
+
+# Utilities
+python-dotenv
