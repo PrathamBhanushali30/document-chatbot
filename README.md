@@ -47,7 +47,7 @@ The repository is modular and organized as follows:
 ### 1️⃣ Environment Setup
 Clone the repository and set up your virtual environment to isolate dependencies:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/PrathamBhanushali30/document-chatbot.git
 cd document-chatbot
 
 # Create and activate virtual environment
