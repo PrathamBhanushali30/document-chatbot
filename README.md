@@ -76,8 +76,9 @@ python main.py
 
 4. Retrieval & Generation: When a query is made, `app/chatbot.py` queries the vector store, finds the most relevant document chunks, and synthesizes a precise, context-backed response.
 
+---
 
-##👨‍💻 Author
+## 👨‍💻 Author
 Pratham Bhanushali
 
 *M.Tech — Artificial Intelligence & Data Science*
