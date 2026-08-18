@@ -68,13 +68,13 @@ python main.py
 
 ## 🧠 Architecture & Workflow
 
-* 1. Document Ingestion: The system reads the provided PDF files (e.g., `data/test_pdf.pdf`).
+1. Document Ingestion: The system reads the provided PDF files (e.g., `data/test_pdf.pdf`).
 
-* 2. Text Chunking: Text is extracted and split into manageable chunks to optimize context limits for the LLM.
+2. Text Chunking: Text is extracted and split into manageable chunks to optimize context limits for the LLM.
 
-* 3. Vectorization: The `app/embeddings.py` module converts these chunks into semantic vectors, creating a searchable index.
+3. Vectorization: The `app/embeddings.py` module converts these chunks into semantic vectors, creating a searchable index.
 
-* 4. Retrieval & Generation: When a query is made, `app/chatbot.py` queries the vector store, finds the most relevant document chunks, and synthesizes a precise, context-backed response.
+4. Retrieval & Generation: When a query is made, `app/chatbot.py` queries the vector store, finds the most relevant document chunks, and synthesizes a precise, context-backed response.
 
 
 ##👨‍💻 Author
